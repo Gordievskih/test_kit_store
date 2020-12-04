@@ -1,0 +1,24 @@
+
+table{
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+}
+th{
+    font-size: 18px;
+    font-weight: bold;
+}
+caption{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+table td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
