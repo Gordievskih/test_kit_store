@@ -27,6 +27,8 @@ function getGames($link){
     return $games;
 }
 
+/*
+
 function updateTurnamentTable($link, $data){
 
     $sql = "INSERT INTO turnament_table ( name_team, played_games, games_win, games_lose, games_draw, goals_scored, goals_misses, score) VALUES ".$data.";";
@@ -39,6 +41,7 @@ function updateTurnamentTable($link, $data){
 
 };
 
+
 function getTurnamentTable($link){
     $sql = "SELECT * FROM turnament_table ORDER BY score DESC ";
 
@@ -48,6 +51,8 @@ function getTurnamentTable($link){
     
     return $turnamentTable;
 }
+*/
+
 
 $turnament_table = [];
 $teams = getTeams($link);
